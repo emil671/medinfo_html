@@ -334,7 +334,7 @@
 
   <!-- INDEX EVENTS END -->
 
-  <!-- FOOTER EVENTS BEGIN -->
+  <!-- FOOTER BEGIN -->
 
     <footer id="footer">
       <div>
@@ -377,7 +377,7 @@
       </div>
     </footer>
 
-  <!-- FOOTER EVENTS END -->
+  <!-- FOOTER END -->
 
   </div>
 </div>
@@ -395,7 +395,7 @@
             <li><a href="#">Məqalə</a></li>
             <li><a href="#">Elan</a></li>
             <li><a href="#">Tədbir</a></li>
-            <li><a href="#">DAXIL OL</a></li>
+            <li><a href="#" class="sign_link">DAXIL OL</a></li>
           </ul>
         </nav>
         <div class="lang">
@@ -410,7 +410,47 @@
 
 
   <!-- MODALS BEGIN -->
+
+    <div class="darkness"></div>
   
+    <div class="modal_sign">
+      <div>
+        <div class="register_form">
+          <h3>Qeydiyyat</h3>
+          <form action="simple.php">
+            <ul>
+              <li><input type="text" placeholder="Ad, soyad"></li>
+              <li>
+                <select name="" id="">
+                  <option value="0">Peşə</option>
+                  <option value="1">Lorem</option>
+                  <option value="2">Ipsum</option>
+                </select>
+              </li>
+              <li><input type="text" placeholder="Hazırki iş yeri"></li>
+              <li><input type="text" placeholder="Əlaqə nömrəsi"></li>
+              <li><input type="text" placeholder="Email"></li>
+              <li>
+                <button type="submit">Qeydiyyat keç</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="login_form">
+          <h3>Daxil OL</h3>
+          <form action="simple.php">
+            <ul>
+              <li><input type="text" placeholder="Ad, soyad"></li>
+              <li><input type="password" placeholder="Şifrə"></li>
+              <li>
+                <button type="submit">Daxil ol</button>
+              </li>
+            </ul>
+          </form>
+        </div>        
+      </div>
+      <a href="#" class="close"></a>
+    </div>
 
   <!-- MODALS END -->
 
