@@ -280,7 +280,49 @@
     height: 30px;
   }
   /* News end */
-  /* Model begin */
+  /* Blog begin */
+  .current_blog {
+    padding: 0 10px;
+  }
+  .current_blog .text .image {
+    float: none;
+    padding: 0 0 20px;
+  }
+  .current_blog .text .image img {
+    width: 100%;
+  }
+  .similar_blogs {
+    display: none;
+  }
+  .blog_list {
+    max-width: 1060px;
+    padding: 20px 10px 20px;
+  }
+  .blog_list h2 {
+    font-size: 32px;
+  }
+  .blog_list .articles article {
+    width: 48%;
+    height: 500px;
+    margin: 0 0 4% 4%;
+  }
+  .blog_list .articles article:nth-child(2n-1) {
+    margin: 0 0 4%;
+  }
+  .blog_list .articles article .info {
+    padding: 10px;
+  }
+  .blog_list .articles article .info .user {
+    padding: 0;
+    text-align: center;
+  }
+  .blog_list .articles article .info .user .avatar {
+    position: static;
+    width: 58px;
+    margin: 0 auto;
+  }
+  /* Blog end */
+  /* Modal begin */
   .modal_sign {
     width: 300px;
     margin: 0 0 0 -150px;
@@ -299,7 +341,7 @@
     width: 100%;
     padding: 20px 20px;
   }
-  /* Model end */
+  /* Modal end */
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
@@ -547,6 +589,36 @@
     height: 34px;
   }
   /* News end */
+  /* Blog begin */
+  .current_blog {
+    padding: 0 10px;
+  }
+  .current_blog .text .image {
+    float: none;
+    padding: 0 0 20px;
+  }
+  .current_blog .text .image img {
+    width: 100%;
+  }
+  .blog_list {
+    max-width: 1060px;
+    padding: 20px 10px 20px;
+  }
+  .blog_list h2 {
+    font-size: 32px;
+  }
+  .blog_list .articles article {
+    width: 49%;
+    height: 500px;
+    margin: 0 0 2% 2%;
+  }
+  .blog_list .articles article:nth-child(2n-1) {
+    margin: 0 0 2%;
+  }
+  .blog_list .articles article .info {
+    padding: 10px;
+  }
+  /* Blog end */
   /* Model begin */
   .modal_sign {
     width: 420px;
@@ -677,6 +749,23 @@
     display: none;
   }
   /* News end */
+  /* Blog begin */
+  .blog_list {
+    max-width: 700px;
+    padding: 20px 0 20px;
+  }
+  .blog_list .articles article {
+    width: 49%;
+    height: 500px;
+    margin: 0 0 2% 2%;
+  }
+  .blog_list .articles article:nth-child(2n-1) {
+    margin: 0 0 2%;
+  }
+  .blog_list .articles article .info {
+    padding: 10px;
+  }
+  /* Blog end */
   /* Model begin */
   .modal_sign {
     width: 700px;
@@ -760,6 +849,19 @@
     width: 660px;
   }
   /* News end */
+  /* Blog begin */
+  .blog_list {
+    max-width: 1060px;
+    padding: 20px 40px 20px;
+  }
+  .blog_list .articles article {
+    width: 235px;
+    height: 420px;
+  }
+  .blog_list .articles article .info {
+    padding: 10px;
+  }
+  /* Blog end */
 }
 
 @media (min-width: 1281px) and (max-width: 1366px) {
