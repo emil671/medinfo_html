@@ -322,6 +322,39 @@
     margin: 0 auto;
   }
   /* Blog end */
+  /* Video begin */
+  .video_list {
+    max-width: 1060px;
+    padding: 20px 10px 20px;
+  }
+  .video_list h2 {
+    font-size: 32px;
+  }
+  .video_list .articles article {
+    width: 48%;
+    height: 360px;
+    margin: 0 0 4% 4%;
+  }
+  .video_list .articles article:nth-child(2n-1) {
+    margin: 0 0 4%;
+  }
+  .video_list .articles article .info {
+    padding: 10px;
+  }
+  .video_list .articles article .info .user {
+    padding: 0;
+    text-align: center;
+  }
+  .video_list .articles article .info .user .avatar {
+    position: static;
+    width: 58px;
+    margin: 0 auto;
+  }
+  .current_video {
+    padding: 0px 10px;
+    margin: 40px 0 0;
+  }
+  /* Video end */
   /* Modal begin */
   .modal_sign {
     width: 300px;
@@ -619,6 +652,30 @@
     padding: 10px;
   }
   /* Blog end */
+  /* Video begin */
+  .video_list {
+    max-width: 1060px;
+    padding: 20px 10px 20px;
+  }
+  .video_list h2 {
+    font-size: 32px;
+  }
+  .video_list .articles article {
+    width: 49%;
+    height: 400px;
+    margin: 0 0 2% 2%;
+  }
+  .video_list .articles article:nth-child(2n-1) {
+    margin: 0 0 2%;
+  }
+  .video_list .articles article .info {
+    padding: 10px;
+  }
+  .current_video {
+    padding: 0px 10px;
+    margin: 40px 0 0;
+  }
+  /* Video end */
   /* Model begin */
   .modal_sign {
     width: 420px;
@@ -766,6 +823,23 @@
     padding: 10px;
   }
   /* Blog end */
+  /* Video begin */
+  .video_list {
+    max-width: 700px;
+    padding: 20px 0 20px;
+  }
+  .video_list .articles article {
+    width: 49%;
+    height: 400px;
+    margin: 0 0 2% 2%;
+  }
+  .video_list .articles article:nth-child(2n-1) {
+    margin: 0 0 2%;
+  }
+  .video_list .articles article .info {
+    padding: 10px;
+  }
+  /* Video end */
   /* Model begin */
   .modal_sign {
     width: 700px;
@@ -862,6 +936,19 @@
     padding: 10px;
   }
   /* Blog end */
+  /* Video begin */
+  .video_list {
+    max-width: 1060px;
+    padding: 20px 40px 20px;
+  }
+  .video_list .articles article {
+    width: 235px;
+    height: 360px;
+  }
+  .video_list .articles article .info {
+    padding: 10px;
+  }
+  /* Video end */
 }
 
 @media (min-width: 1281px) and (max-width: 1366px) {
