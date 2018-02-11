@@ -113,3 +113,43 @@ $(".vertical_topik").eq(4).css("left", -($(".vertical_topik").eq(4).find("span")
         return false;
     });
 /* Modal end */
+
+
+
+/* Map begin */
+
+function gmap() {
+    const icon = 'img/label.png';
+
+    const title = $('#event_map').data('title');
+    const address = $('#event_map').data('address');
+
+    const latitude = $('#event_map').attr('data-latitude');
+    const longitude = $('#event_map').attr('data-longitude');
+    const myLatlng = new google.maps.LatLng(latitude,longitude);
+    const infowindow = new google.maps.InfoWindow();
+
+    const myOptions = {
+        zoom: 16,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    const map = new google.maps.Map(document.getElementById("event_map"), myOptions);
+    const marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: title,
+        icon: icon
+    });
+
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent('<b>' + title + '</b><br/><br/>' + address);
+        infowindow.open(map, this);
+    });
+}
+
+if ( $("#event_map").length > 0) {
+    gmap();
+}
+
+/* Map end */

@@ -393,6 +393,31 @@
     }
   /* Video end */
 
+  /* Event begin */
+    .current_event {
+      padding: 0 10px 0;
+    }
+    .similar_events .list article {
+      padding: 20px 20px 20px 100px;
+      .info {
+        position: static;
+      }
+      .inset {
+        padding: 0 0 10px;
+      }
+    }
+    .event_info footer {
+      text-align: center;
+      .location {
+        float: none;
+      }
+      .contact {
+        float: none;
+      }
+    }
+
+  /* Event end */
+
   /* Modal begin */
     .modal_sign {
       width: 300px;
@@ -726,6 +751,12 @@
       margin: 40px 0 0;
     }
   /* Video end */
+
+  /* Event begin */
+    .current_event {
+      padding: 0 10px 0;
+    }
+  /* Event end */
 
   /* Model begin */
     .modal_sign {
