@@ -378,6 +378,44 @@
     float: none;
   }
   /* Event end */
+  /* Announcement begin */
+  .announcement_list {
+    padding: 0 10px;
+  }
+  .announcement_list .list ul li {
+    width: 48%;
+    float: left;
+    clear: left;
+    padding: 0;
+  }
+  .announcement_list .list ul li:nth-child(2n) {
+    float: right;
+    clear: right;
+  }
+  .announcement_list .list ul li .image {
+    float: none;
+    padding: 0;
+  }
+  .announcement_list .list ul li .image img {
+    width: 100%;
+  }
+  .announcement_list .list ul li .inset {
+    padding: 12px 10px 10px;
+  }
+  .announcement_list .list ul li .info {
+    position: static;
+    padding: 0 10px 10px;
+    margin: 0;
+  }
+  .current_announcement {
+    padding: 0 10px;
+  }
+  .current_announcement .text .info {
+    float: none;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  /* Announcement end */
   /* Modal begin */
   .modal_sign {
     width: 300px;
@@ -704,6 +742,39 @@
     padding: 0 10px 0;
   }
   /* Event end */
+  /* Announcement begin */
+  .announcement_list {
+    padding: 0 10px;
+  }
+  .announcement_list .list ul li {
+    width: 48%;
+    float: left;
+    clear: left;
+    padding: 0;
+  }
+  .announcement_list .list ul li:nth-child(2n) {
+    float: right;
+    clear: right;
+  }
+  .announcement_list .list ul li .image {
+    float: none;
+    padding: 0;
+  }
+  .announcement_list .list ul li .image img {
+    width: 100%;
+  }
+  .announcement_list .list ul li .inset {
+    padding: 12px 10px 10px;
+  }
+  .announcement_list .list ul li .info {
+    position: static;
+    padding: 0 10px 10px;
+    margin: 0;
+  }
+  .current_announcement {
+    padding: 0 10px;
+  }
+  /* Announcement end */
   /* Model begin */
   .modal_sign {
     width: 420px;
@@ -868,6 +939,11 @@
     padding: 10px;
   }
   /* Video end */
+  /* Announcement begin */
+  .announcement_list .list ul li .inset {
+    padding: 12px 0 0;
+  }
+  /* Announcement end */
   /* Model begin */
   .modal_sign {
     width: 700px;
