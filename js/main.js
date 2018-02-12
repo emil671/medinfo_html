@@ -153,3 +153,19 @@ if ( $("#event_map").length > 0) {
 }
 
 /* Map end */
+
+
+/* Fise select begin */
+    $(".file_select label input").change(function(){
+        //alert($(".file_select label input").val())
+    });
+/* Fise select end */
+
+
+/* Select nav mobile begin */
+    $(".articles_nav select").change(function(){
+        var _this_index = $(this).find("option:selected").index(),
+        _this_link = $(".articles_nav ul li").eq(_this_index).find("a").attr("href");
+        location.href = _this_link;
+    });
+/* Select nav mobile end */
