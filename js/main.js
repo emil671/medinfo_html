@@ -48,7 +48,7 @@ $(".vertical_topik").eq(4).css("left", -($(".vertical_topik").eq(4).find("span")
                 _this.addClass("active_last");
             }, 600);
             $("#aside_block").addClass("show_me");
-            $(".mobile_nav").css("height", (_window.height()-130)+"px");
+            $(".mobile_nav").css("height", (_window.height()-140)+"px");
 
             setTimeout(function(){
                 $("body").addClass("menu_overflow");

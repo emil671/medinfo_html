@@ -398,10 +398,16 @@
             <li><a href="#" class="sign_link">DAXIL OL</a></li>
           </ul>
         </nav>
+        <div class="social_icons">
+          <a href="#" class="youtube"><img src="img/youtube_icon.png" alt=""></a>
+          <a href="#" class="facebook"><img src="img/facebook_icon.png" alt=""></a>
+        </div>
         <div class="lang">
-          <span>AZE</span>
-          <a href="#">ENG</a>
-          <a href="#">RUS</a>
+          <select name="" id="">
+            <option value="aze">AZE</option>
+            <option value="aze">ENG</option>
+            <option value="aze">RUS</option>
+          </select>
         </div>
       </div>
     </aside>
@@ -427,13 +433,18 @@
                   <option value="2">Ipsum</option>
                 </select>
               </li>
-              <li><input type="text" placeholder="Hazırki iş yeri"></li>
-              <li><input type="text" placeholder="Əlaqə nömrəsi"></li>
+              <li><input type="text" placeholder="Hazırki iş yeri" class="alert"></li>
+              <li><input type="text" placeholder="Əlaqə nömrəsi" class="alert"></li>
               <li><input type="text" placeholder="Email"></li>
               <li>
                 <button type="submit">Qeydiyyat keç</button>
               </li>
             </ul>
+            <div class="waring_list">
+              <p>* Phone Number is dummy text of the printing</p>
+              <p>* E-mail must variations of available, but the </p>
+              <p>* Blank is simply dummy text of the printing</p>
+            </div>
           </form>
         </div>
         <div class="login_form">
@@ -441,7 +452,7 @@
           <form action="simple.php">
             <ul>
               <li><input type="text" placeholder="Ad, soyad"></li>
-              <li><input type="password" placeholder="Şifrə"></li>
+              <li><input type="password" placeholder="Şifrə" class="alert"></li>
               <li>
                 <button type="submit">Daxil ol</button>
               </li>

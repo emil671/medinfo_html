@@ -179,6 +179,12 @@ header#header .social_icons {
 header#header .social_icons a {
   display: block;
   border: 1px solid #d1d1d1;
+  float: left;
+  margin: 0 0 0 10px;
+}
+
+header#header .social_icons a:first-child {
+  margin: 0;
 }
 
 nav#nav {
@@ -193,6 +199,11 @@ nav#nav ul {
 nav#nav ul li {
   display: table-cell;
   border-left: 2px solid #fff;
+  vertical-align: top;
+}
+
+nav#nav ul li:last-child {
+  width: 1px;
 }
 
 nav#nav ul li:first-child {
@@ -251,6 +262,7 @@ nav#nav ul li a {
   text-transform: uppercase;
   line-height: 75px;
   font-size: 16px;
+  font-weight: 500;
   text-align: center;
   color: #fff;
   text-decoration: none;
@@ -258,8 +270,30 @@ nav#nav ul li a {
 }
 
 nav#nav ul li a.sign_link {
-  padding: 0 24px 0 0;
+  padding: 0 75px 0 20px;
   background: #aaaaaa url(../img/sign_icon.png) no-repeat 100% 50% !important;
+}
+
+nav#nav ul li a.user_link {
+  height: 78px;
+  color: #555;
+  background: #eaeaea !important;
+  position: relative;
+}
+
+nav#nav ul li a.user_link span {
+  display: block;
+  float: left;
+  text-align: left;
+  line-height: 21px;
+  padding: 18px 80px 0 10px;
+}
+
+nav#nav ul li a.user_link img {
+  border: 4px solid #fff;
+  position: absolute;
+  top: 12px;
+  right: 20px;
 }
 
 .vertical_topik {
@@ -3521,30 +3555,45 @@ aside#aside_block > div {
 }
 
 aside#aside_block .lang {
-  width: 100%;
-  padding: 4px 0 0;
-  text-align: center;
-  font-size: 0;
+  float: left;
+  margin: 0 0 0;
+  position: relative;
 }
 
-aside#aside_block .lang a, aside#aside_block .lang span {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  margin: 0 5px;
-  font-size: 13px;
-  line-height: 32px;
-  color: #fff;
-  text-decoration: none;
-  background: #0ea6aa;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -khtml-border-radius: 50%;
-  border-radius: 50%;
+aside#aside_block .lang select {
+  display: block;
+  width: 90px;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid #d1d1d1;
+  font-size: 15px;
+  color: #aaa;
+  font-family: 'Montserrat';
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background: url(../img/select_pt.png) no-repeat 100% 50%;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
 }
 
-aside#aside_block .lang span {
-  background: #aaa;
+aside#aside_block .social_icons {
+  float: left;
+  padding: 0 14px 0 10px;
+}
+
+aside#aside_block .social_icons a {
+  display: block;
+  float: left;
+  margin: 0 0 0 10px;
+  border: 1px solid #d1d1d1;
+}
+
+aside#aside_block .social_icons a:first-child {
+  margin: 0;
 }
 
 nav.mobile_nav {
@@ -3588,6 +3637,20 @@ nav.mobile_nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   background: #9978fd;
+}
+
+nav.mobile_nav ul li a.user_link {
+  position: relative;
+}
+
+nav.mobile_nav ul li a.user_link br {
+  display: none;
+}
+
+nav.mobile_nav ul li a.user_link img {
+  position: absolute;
+  top: 3px;
+  right: 3px;
 }
 
 /* Modal begin */
@@ -3749,6 +3812,11 @@ nav.mobile_nav ul li a {
   border-color: #47add9;
 }
 
+.register_form form ul li input.alert {
+  border-color: #ce1231;
+  color: #ce1231;
+}
+
 .register_form form ul li select {
   display: block;
   width: 100%;
@@ -3772,6 +3840,11 @@ nav.mobile_nav ul li a {
   border-color: #47add9;
 }
 
+.register_form form ul li select.alert {
+  border-color: #ce1231;
+  color: #ce1231;
+}
+
 .register_form form ul li button {
   display: block;
   width: 100%;
@@ -3788,6 +3861,17 @@ nav.mobile_nav ul li a {
 
 .register_form form ul li button:hover {
   opacity: 0.9;
+}
+
+.waring_list {
+  padding: 15px 0 0;
+}
+
+.waring_list p {
+  padding: 0 0 5px;
+  font-size: 13px;
+  color: #ce1231;
+  font-style: italic;
 }
 
 .login_form {
@@ -3826,6 +3910,11 @@ nav.mobile_nav ul li a {
 
 .login_form form ul li input:focus {
   border-color: #47add9;
+}
+
+.login_form form ul li input.alert {
+  border-color: #ce1231;
+  color: #ce1231;
 }
 
 .login_form form ul li select {
