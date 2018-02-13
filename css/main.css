@@ -1481,13 +1481,143 @@ footer#footer > div .email a:hover {
   padding: 0 0 30px;
 }
 
-.aside_banners ul li a {
+.aside_banners ul li > a {
   display: block;
 }
 
-.aside_banners ul li a img {
+.aside_banners ul li > a > img {
   display: block;
   width: 100%;
+}
+
+.first_banner {
+  position: relative;
+}
+
+.first_banner img {
+  display: block;
+  width: 100%;
+}
+
+.first_banner .info {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.first_banner .info h3 {
+  padding: 0 0 8px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.first_banner .info h3 strong {
+  font-weight: 900;
+}
+
+.first_banner .info p {
+  font-size: 15px;
+}
+
+.second_banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.second_banner img {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.second_banner .info {
+  width: 50%;
+  height: 100%;
+  color: #fff;
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 14px 0;
+}
+
+.second_banner .info::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #000 transparent transparent;
+  position: absolute;
+  top: 30px;
+  left: -10px;
+}
+
+.second_banner .info h3 {
+  padding: 0 0 8px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.second_banner .info p {
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 600;
+}
+
+.third_banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.third_banner img {
+  display: block;
+  width: 50%;
+  float: right;
+}
+
+.third_banner .info {
+  width: 50%;
+  height: 100%;
+  color: #000;
+  background: #cedafa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 18px 14px;
+}
+
+.third_banner .info::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #cedafa;
+  position: absolute;
+  top: 30px;
+  right: -10px;
+}
+
+.third_banner .info h3 {
+  padding: 0 0 8px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.third_banner .info p {
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #626875;
+}
+
+.aside_events {
+  padding: 0 0 30px;
 }
 
 .aside_events > div {

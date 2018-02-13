@@ -1299,10 +1299,10 @@ footer#footer {
   padding: 0 0 30px;
   ul {
     li {
-      a {
+      > a {
         display: block;
-        img {
-          display: block;;
+        > img {
+          display: block;
           width: 100%;
         }
       }
@@ -1310,7 +1310,119 @@ footer#footer {
   }
 }
 
+.first_banner {
+  position: relative;
+  img {
+    display: block;
+    width: 100%;
+  }
+  .info {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    h3 {
+      padding: 0 0 8px;
+      font-size: 32px;
+      font-weight: 300;
+      strong {
+        font-weight: 900;
+      }
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+.second_banner {
+  position: relative;
+  overflow: hidden;
+  img {
+    display: block;
+    width: 50%;
+    float: left;
+  }
+  .info {
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    background: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25px 14px 0;
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent #000 transparent transparent;
+      position: absolute;
+      top: 30px;
+      left: -10px;
+    }
+    h3 {
+      padding: 0 0 8px;
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 12px;
+      line-height: 19px;
+      font-weight: 600;
+    }
+  }
+}
+
+.third_banner {
+  position: relative;
+  overflow: hidden;
+  img {
+    display: block;
+    width: 50%;
+    float: right;
+  }
+  .info {
+    width: 50%;
+    height: 100%;
+    color: #000;
+    background: #cedafa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 18px 14px;
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent #cedafa;
+      position: absolute;
+      top: 30px;
+      right: -10px;
+    }
+    h3 {
+      padding: 0 0 8px;
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 12px;
+      line-height: 19px;
+      font-weight: 600;
+      color: #626875;
+    }
+  }
+}
+
 .aside_events {
+  padding: 0 0 30px;
   > div {
     height: 350px;
     padding: 0 0 0 95px;

@@ -479,7 +479,7 @@
   .modal_sign {
     width: 300px;
     margin: 0 0 0 -150px;
-    top: -800px;
+    top: -1000px;
   }
   .register_form {
     width: 100%;
@@ -940,10 +940,7 @@
     width: 166px;
   }
   .registration_banner {
-    width: 280px;
-    float: none;
-    clear: both;
-    margin: 0 auto;
+    display: none;
   }
   .index_blog {
     max-width: 700px;
