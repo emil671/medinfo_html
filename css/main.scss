@@ -966,18 +966,19 @@ nav#nav {
 }
 
 .banners_list {
+  width: 536px;
   float: right;
   font-size: 0;
-  ul {
-    li {
-      a {
-        display: block;
-        img {
-          display: block;
-          width: 100%;
-        }
+  .aside_banners {
+    ul {
+      li {
+        height: 180px;
+        overflow: hidden;
       }
     }
+  }
+  .first_banner .info {
+    top: 100px;
   }
 }
 

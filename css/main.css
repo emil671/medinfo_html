@@ -1105,17 +1105,18 @@ nav#nav ul li a.user_link img {
 }
 
 .banners_list {
+  width: 536px;
   float: right;
   font-size: 0;
 }
 
-.banners_list ul li a {
-  display: block;
+.banners_list .aside_banners ul li {
+  height: 180px;
+  overflow: hidden;
 }
 
-.banners_list ul li a img {
-  display: block;
-  width: 100%;
+.banners_list .first_banner .info {
+  top: 100px;
 }
 
 footer#footer {
