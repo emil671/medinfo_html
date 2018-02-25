@@ -157,7 +157,9 @@ if ( $("#event_map").length > 0) {
 
 /* Fise select begin */
     $(".file_select label input").change(function(){
-        //alert($(".file_select label input").val())
+        var _this = $(this),
+        _this_file_name = $(".file_select label input").val();
+        $(".file_select label em").text(_this_file_name.slice(12));
     });
 /* Fise select end */
 
