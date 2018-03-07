@@ -22,7 +22,7 @@ $(".vertical_topik").eq(3).css("left", -($(".vertical_topik").eq(3).find("span")
 $(".vertical_topik").eq(4).css("top", ($(".vertical_topik").eq(4).find("span").width()/2-10)+"px");
 $(".vertical_topik").eq(4).css("left", -($(".vertical_topik").eq(4).find("span").width()/2+20)+"px");
 
-
+$(".vertical_topik").addClass("show_me");
 
 /* Nav begin */
 

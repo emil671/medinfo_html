@@ -257,6 +257,7 @@ nav#nav {
         text-align: center;
         color: #fff;
         text-decoration: none;
+        white-space: nowrap; 
         background: #9978fd;
         &.sign_link {
           padding: 0 75px 0 20px;
@@ -296,6 +297,10 @@ nav#nav {
   left: 0;
   top: 0;
   text-align: right;
+  opacity: 0;
+  &.show_me {
+    opacity: 1;
+  }
   span {
     display: block;
     @include transformer(-90deg);

@@ -266,6 +266,7 @@ nav#nav ul li a {
   text-align: center;
   color: #fff;
   text-decoration: none;
+  white-space: nowrap;
   background: #9978fd;
 }
 
@@ -304,6 +305,11 @@ nav#nav ul li a.user_link img {
   left: 0;
   top: 0;
   text-align: right;
+  opacity: 0;
+}
+
+.vertical_topik.show_me {
+  opacity: 1;
 }
 
 .vertical_topik span {
