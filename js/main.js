@@ -78,6 +78,37 @@ $(".vertical_topik").addClass("show_me");
 		}
 		return false;
 	});
+
+        $(".index_news_slider").mouseover(function(){
+            window.C_MOUSE_OVER = true;
+        }).mouseleave(function(){
+            window.C_MOUSE_OVER = false;
+            window.C_MOUSE_LEAVE = true;
+        });
+
+
+        $("#index_news_slider").mousemove(function(){
+            window.C_MOUSE_OVER = true;
+        });
+
+
+        function main_carousel_interval() {
+            main_intervalus = setInterval( function() {
+                if (window.C_MOUSE_OVER) {
+                    return;
+                }
+                if ($(".index_news_slider .bullets a.active").next().length) {
+                    $(".index_news_slider .bullets a.active").next().click();
+                } else {
+                    $(".index_news_slider .bullets a:first-child").click();
+                }
+            }, 6000);
+        }
+
+        setTimeout( function() {
+                main_carousel_interval();
+        }, 300);
+
 /* Index slider end */
 
 /* Aside events slider begin */
