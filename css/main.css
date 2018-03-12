@@ -847,6 +847,7 @@ nav#nav ul li a.user_link img {
   height: 480px;
   float: left;
   margin: 0 0 0 13px;
+  position: relative;
   -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
@@ -931,16 +932,19 @@ nav#nav ul li a.user_link img {
 }
 
 .index_blog .articles article .user {
+  width: 100%;
   min-height: 60px;
-  padding: 0 72px 0 0;
-  position: relative;
+  padding: 0 72px 10px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   overflow: hidden;
 }
 
 .index_blog .articles article .user .avatar {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 20px;
 }
 
 .index_blog .articles article .user .avatar img {
@@ -1911,6 +1915,7 @@ footer#footer > div .email a:hover {
   height: 480px;
   float: left;
   margin: 0 0 13px 13px;
+  position: relative;
   -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
@@ -1995,16 +2000,19 @@ footer#footer > div .email a:hover {
 }
 
 .blog_list .articles article .user {
+  width: 100%;
   min-height: 60px;
-  padding: 0 72px 0 0;
-  position: relative;
+  padding: 0 72px 10px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   overflow: hidden;
 }
 
 .blog_list .articles article .user .avatar {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 20px;
 }
 
 .blog_list .articles article .user .avatar img {

@@ -178,7 +178,7 @@
     padding: 10px;
   }
   .index_blog .articles article .info .user {
-    padding: 0;
+    padding: 0 0 10px;
     text-align: center;
   }
   .index_blog .articles article .info .user .avatar {
@@ -313,7 +313,7 @@
     padding: 10px;
   }
   .blog_list .articles article .info .user {
-    padding: 0;
+    padding: 0 0 10px;
     text-align: center;
   }
   .blog_list .articles article .info .user .avatar {
@@ -665,6 +665,12 @@
   .index_blog .articles article .info {
     padding: 10px;
   }
+  .index_blog .articles article .info .user {
+    padding: 0 72px 10px 10px;
+  }
+  .index_blog .articles article .info .user .avatar {
+    right: 10px;
+  }
   .index_events {
     max-width: 700px;
     padding: 25px 10px 20px;
@@ -770,6 +776,12 @@
   }
   .blog_list .articles article .info {
     padding: 10px;
+  }
+  .blog_list .articles article .info .user {
+    padding: 0 72px 10px 10px;
+  }
+  .blog_list .articles article .info .user .avatar {
+    right: 10px;
   }
   /* Blog end */
   /* Video begin */
@@ -957,6 +969,12 @@
   .index_blog .articles article .info {
     padding: 10px;
   }
+  .index_blog .articles article .info .user {
+    padding: 0 72px 10px 10px;
+  }
+  .index_blog .articles article .info .user .avatar {
+    right: 10px;
+  }
   .index_events {
     max-width: 700px;
     padding: 25px 0 50px;
@@ -1002,6 +1020,12 @@
   }
   .blog_list .articles article .info {
     padding: 10px;
+  }
+  .blog_list .articles article .info .user {
+    padding: 0 72px 10px 10px;
+  }
+  .blog_list .articles article .info .user .avatar {
+    right: 10px;
   }
   /* Blog end */
   /* Video begin */
@@ -1099,6 +1123,12 @@
   .index_blog .articles article .info {
     padding: 10px;
   }
+  .index_blog .articles article .info .user {
+    padding: 0 72px 10px 10px;
+  }
+  .index_blog .articles article .info .user .avatar {
+    right: 10px;
+  }
   .index_events {
     max-width: 1060px;
   }
@@ -1143,6 +1173,12 @@
   }
   .blog_list .articles article .info {
     padding: 10px;
+  }
+  .blog_list .articles article .info .user {
+    padding: 0 72px 10px 10px;
+  }
+  .blog_list .articles article .info .user .avatar {
+    right: 10px;
   }
   /* Blog end */
   /* Video begin */
