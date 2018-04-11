@@ -44,6 +44,9 @@
     top: 0;
     left: 0;
     z-index: 2;
+    .search_form {
+      display: none;
+    }
     .logo {
       float: none;
       padding: 15px 0 0;
@@ -624,6 +627,9 @@
     top: 0;
     left: 0;
     z-index: 2;
+    .search_form {
+      display: none;
+    }
     .logo {
       float: none;
       padding: 15px 0 0;

@@ -48,7 +48,7 @@ $(".vertical_topik").addClass("show_me");
                 _this.addClass("active_last");
             }, 600);
             $("#aside_block").addClass("show_me");
-            $(".mobile_nav").css("height", (_window.height()-140)+"px");
+            $(".mobile_nav").css("height", (_window.height()-210)+"px");
 
             setTimeout(function(){
                 $("body").addClass("menu_overflow");
@@ -58,7 +58,7 @@ $(".vertical_topik").addClass("show_me");
     });
 
     _window.resize(function(){
-        $(".mobile_nav").css("height", (_window.height()-166)+"px");
+        $(".mobile_nav").css("height", (_window.height()-210)+"px");
     });
 
     $(".mobile_nav > ul > li.submenu > a").click(function(){
