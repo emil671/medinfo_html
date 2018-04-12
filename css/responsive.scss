@@ -591,8 +591,12 @@
       .form {
         width: 100%;
         float: none;
+        ul li textarea {
+          height: 160px;
+        }
       }
       .text_contact {
+        display: none; 
         width: 100%;
         float: none;
       }

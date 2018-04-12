@@ -547,7 +547,11 @@
     width: 100%;
     float: none;
   }
+  .feedback_form .form ul li textarea {
+    height: 160px;
+  }
   .feedback_form .text_contact {
+    display: none;
     width: 100%;
     float: none;
   }
