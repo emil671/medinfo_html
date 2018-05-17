@@ -7,22 +7,25 @@ var _window = $(window),
     window_height = _window.height();
 
 
-$(".vertical_topik").eq(0).css("top", ($(".vertical_topik").eq(0).find("span").width()/2-10)+"px");
-$(".vertical_topik").eq(0).css("left", -($(".vertical_topik").eq(0).find("span").width()/2+20)+"px");
+setTimeout(function(){
+	$(".vertical_topik").eq(0).css("top", ($(".vertical_topik").eq(0).find("span").width()/2-10)+"px");
+	$(".vertical_topik").eq(0).css("left", -($(".vertical_topik").eq(0).find("span").width()/2+20)+"px");
 
-$(".vertical_topik").eq(1).css("top", ($(".vertical_topik").eq(1).find("span").width()/2-10)+"px");
-$(".vertical_topik").eq(1).css("left", -($(".vertical_topik").eq(1).find("span").width()/2+20)+"px");
+	$(".vertical_topik").eq(1).css("top", ($(".vertical_topik").eq(1).find("span").width()/2-10)+"px");
+	$(".vertical_topik").eq(1).css("left", -($(".vertical_topik").eq(1).find("span").width()/2+20)+"px");
 
-$(".vertical_topik").eq(2).css("top", ($(".vertical_topik").eq(2).find("span").width()/2-10)+"px");
-$(".vertical_topik").eq(2).css("left", -($(".vertical_topik").eq(2).find("span").width()/2+20)+"px");
+	$(".vertical_topik").eq(2).css("top", ($(".vertical_topik").eq(2).find("span").width()/2-10)+"px");
+	$(".vertical_topik").eq(2).css("left", -($(".vertical_topik").eq(2).find("span").width()/2+20)+"px");
 
-$(".vertical_topik").eq(3).css("top", ($(".vertical_topik").eq(3).find("span").width()/2-10)+"px");
-$(".vertical_topik").eq(3).css("left", -($(".vertical_topik").eq(3).find("span").width()/2+20)+"px");
+	$(".vertical_topik").eq(3).css("top", ($(".vertical_topik").eq(3).find("span").width()/2-10)+"px");
+	$(".vertical_topik").eq(3).css("left", -($(".vertical_topik").eq(3).find("span").width()/2+20)+"px");
 
-$(".vertical_topik").eq(4).css("top", ($(".vertical_topik").eq(4).find("span").width()/2-10)+"px");
-$(".vertical_topik").eq(4).css("left", -($(".vertical_topik").eq(4).find("span").width()/2+20)+"px");
+	$(".vertical_topik").eq(4).css("top", ($(".vertical_topik").eq(4).find("span").width()/2-10)+"px");
+	$(".vertical_topik").eq(4).css("left", -($(".vertical_topik").eq(4).find("span").width()/2+20)+"px");
 
-$(".vertical_topik").addClass("show_me");
+	$(".vertical_topik").addClass("show_me");	
+}, 900);
+
 
 /* Nav begin */
 
